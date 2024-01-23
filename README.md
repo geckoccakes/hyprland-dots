@@ -9,9 +9,8 @@
 - **Notify Daemon** • [Dunst](https://github.com/dunst-project/dunst) 🍃
   Minimalist and functional!
 - **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 Rofi!
-- **File Manager** • [Ranger](https://github.com/ranger/ranger)🔖 custom!
-- **GUI Basic-IDE** • [NvChad-V2](https://github.com/linuxmobile/nvchad-v2) Rice
-  IDE!
+- **File Manager** • [Ranger](https://github.com/ranger/ranger)🔖 Customizable file manager!
+- **GUI Basic-IDE** • [NvChad-V2](https://github.com/linuxmobile/nvchad-v2) Rice IDE!
 
 ## 🌸 Setup
 
