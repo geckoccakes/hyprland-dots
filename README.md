@@ -1,6 +1,6 @@
 - **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)🎨 Tiles
   Everywhere!
-- **Shell** • [Zsh](https://www.zsh.org) 🐚 con
+- **Shell** • [Zsh](https://www.zsh.org) 🐚 &
   [starship](https://github.com/starship/starship) Cross Shell Platform!
 - **Terminal** • [WezTerm](https://github.com/wez/wezterm) 💻 A powerful term
   with gpu support!
@@ -8,8 +8,7 @@
   Patched waybar following hyprland faq!
 - **Notify Daemon** • [Dunst](https://github.com/dunst-project/dunst) 🍃
   Minimalist and functional!
-- **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 Realmente rápido
-  y customizable!
+- **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 Rofi!
 - **File Manager** • [Ranger](https://github.com/ranger/ranger)🔖 custom!
 - **GUI Basic-IDE** • [NvChad-V2](https://github.com/linuxmobile/nvchad-v2) Rice
   IDE!
@@ -18,39 +17,16 @@
 
 <img align="center" src="/assets/r-unixporn.webp">
 
-<details>
-<summary><b>OLD SETUP</b></summary>
-
-<img align="center" src="https://i.imgur.com/QopB79H.png">
-
-[GRUVxYRLAND](https://github.com/linuxmobile/hyprland-dots/tree/Gruvland)
-</details>
-
-### Install steps (Take care about it. Isn't a tutorial)
-
-<details>
-
-[Read Spanish Detailed Guide Here](https://aprendiendoaprogramar.netlify.app/configurando-hyprland-y-wayland/)
-
-<summary><b>LONG READ DISCLAIMER</b></summary>
-
-## INSTALLATION (Arch Based Only)
-
-##### First of all, this is a cute disclaimer. All of this settings are installed in Artix and in wayland only! I don't know how it work in other distro.
+<summary><b>Quick Setup</b></summary>
 
 <div align="left">
 
 <details>
 <summary><h3>Hyprland Stuff</h3></summary>
 
-###### To get started, let's make sure we have all the necessary prerequisites. In this case, I'm using Paru as the AUR helper, but keep in mind that your system may require a different approach.
-
-- Installation using paru
-
 ```sh
 ## Hyprland Stuff
-paru -S hyprland-git hyprpicker-git waybar-git \
-dunst nwg-look wf-recorder wlogout wlsunset
+paru -S hyprland-git hyprpicker-git waybar-git dunst nwg-look wf-recorder wlogout wlsunset
 ```
 
 </details>
@@ -72,35 +48,17 @@ xwaylandvideobridge-cursor-mode-2-git cliphist qt5-imageformats qt5ct
 </details>
 
 <details>
-<summary><h3>Apps & More</h3></summary>
+<summary><h3>Apps</h3></summary>
 
 ```sh
-## CLI & Tools
+## Quick-setup because lazy
 paru -S btop cava neofetch noise-suppression-for-voice   \
-rofi-lbonn-wayland-git rofi-emoji starship zsh viewnior ocs-url
-```
-
-```sh
-## Browser & File Explorer
-paru -S brave-bin file-roller noto-fonts noto-fonts-cjk  \
-noto-fonts-emoji thunar thunar-archive-plugin
-```
-
-```sh
-# VSCode
-paru -S code code-features code-marketplace
-```
-
-```sh
-# Theme Based
-paru -S catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-mocha papirus-icon-theme sddm-git swaylock-effects-git kvantum kvantum-theme-catppuccin-git
-```
-
-```sh
-# Pipewire & OBS
-paru -S obs-studio-rc ffmpeg-obs cef-minimal-obs-rc-bin   \
+rofi-lbonn-wayland-git rofi-emoji starship zsh viewnior ocs-url  \
+brave-bin file-roller noto-fonts noto-fonts-cjk  \
+noto-fonts-emoji thunar thunar-archive-plugin  \
 pipewire pipewire-alsa pipewire-audio pipewire-pulse      \
 pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
+
 ```
 
 </details>
@@ -112,10 +70,8 @@ pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
 <details>
 <summary><h3>DOTFILES</h3></summary>
 
-###### To get started, let's make sure we have all the necessary prerequisites. In this case, I'm using Paru as the AUR helper, but keep in mind that your system may require a different approach.
-
 ```sh
-git clone https://github.com/linuxmobile/hyprland-dots $HOME/Downloads/hyprland-dots/
+git clone https://github.com/geckoccakes/hyprland-dots $HOME/Downloads/hyprland-dots/
 cd $HOME/Downloads/hyprland-dots/
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
