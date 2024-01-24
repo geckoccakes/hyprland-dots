@@ -1,16 +1,12 @@
-- **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)🎨 Tiles
-  Everywhere!
+- **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
 - **Shell** • [Zsh](https://www.zsh.org) 🐚 &
   [starship](https://github.com/starship/starship) Cross Shell Platform!
-- **Terminal** • [WezTerm](https://github.com/wez/wezterm) 💻 A powerful term
-  with gpu support!
-- **Panel** • [Waybar](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧
-  Patched waybar following hyprland faq!
-- **Notify Daemon** • [Dunst](https://github.com/dunst-project/dunst) 🍃
-  Minimalist and functional!
+- **Terminal** • [WezTerm](https://github.com/wez/wezterm) 💻 A powerful term with gpu support!
+- **Panel** • [Waybar](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧 Patched waybar following hyprland faq!
+- **Notify Daemon** • [Dunst](https://github.com/dunst-project/dunst) 🍃 Minimalist and functional!
 - **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 Rofi!
 - **File Manager** • [Ranger](https://github.com/ranger/ranger)🔖 Customizable file manager!
-- **GUI Basic-IDE** • [NvChad-V2](https://github.com/linuxmobile/nvchad-v2) Rice IDE!
+- **GUI Basic-IDE** • [NvChad](https://github.com/NvChad/NvChad) the IDE!
 
 ## 🌸 Setup
 
@@ -33,31 +29,39 @@ paru -S hyprland-git hyprpicker-git waybar-git dunst nwg-look wf-recorder wlogou
 <details>
 <summary><h3>Dependencies</h3></summary>
 
-- Installation using paru
+- Install it.
+  
+```sh
+paru -S colord ffmpegthumbnailer gnome-keyring grimblast-git gtk-engine-murrine  \
+imagemagick kvantum pamixer playerctl polkit-kde-agent qt5-quickcontrols         \
+qt5-quickcontrols2 qt5-wayland qt6-wayland swww ttf-font-awesome tumbler         \
+ttf-jetbrains-mono ttf-icomoon-feather cliphist qt5-imageformats qt5ct           \
+```
 
 ```sh
-## Dependencies
-paru -S colord ffmpegthumbnailer gnome-keyring grimblast-git gtk-engine-murrine \
-imagemagick kvantum pamixer playerctl polkit-kde-agent qt5-quickcontrols        \
-qt5-quickcontrols2 qt5-wayland qt6-wayland swww ttf-font-awesome tumbler     \
-ttf-jetbrains-mono ttf-icomoon-feather xdg-desktop-portal-hyprland-git xdotool  \
-xwaylandvideobridge-cursor-mode-2-git cliphist qt5-imageformats qt5ct
+## Not sure.
+xwaylandvideobridge-cursor-mode-2-git xdg-desktop-portal-hyprland-git xdotool
 ```
 
 </details>
 
 <details>
-<summary><h3>Apps</h3></summary>
+<summary><h3>Apps and Quick Setup</h3></summary>
+
+- Quick Setup
 
 ```sh
-## Quick-setup because lazy
-paru -S btop cava neofetch noise-suppression-for-voice   \
-rofi-lbonn-wayland-git rofi-emoji starship zsh viewnior ocs-url  \
-brave-bin file-roller noto-fonts noto-fonts-cjk  \
-noto-fonts-emoji thunar thunar-archive-plugin  \
-pipewire pipewire-alsa pipewire-audio pipewire-pulse      \
+paru -S btop cava neofetch rofi-lbonn-wayland-git rofi-emoji  \
+starship zsh viewnior ocs-url brave-bin file-roller  \
+thunar thunar-archive-plugin pipewire  \
+pipewire-alsa pipewire-audio pipewire-pulse  \
 pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
+```
 
+- Fonts:
+
+```sh
+noto-fonts-emoji noto-fonts noto-fonts-cjk
 ```
 
 </details>
@@ -79,6 +83,8 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 </div>
 
 ## Credits
+
+**Original Dotfiles by: [L I N U X M O B I L E](https://github.com/linuxmobile/).**
 
 _Beauty community: [r/unixporn](https://www.reddit.com/r/unixporn)._
 
